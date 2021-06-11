@@ -1,4 +1,5 @@
 function checkCardStartWith(cardNumber, cardName) {
+ 
   const stringCardNumber = cardNumber.join('').toString();
 
   const firstNumbers = {
