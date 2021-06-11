@@ -15,6 +15,8 @@ function checkCardStartWith(cardNumber, cardName) {
   return checkFirstNumbers.length ? cardName : 'Nieprawidłowy';
 }
 
+//---------------------------------------
+
 function getCardName(arrOfNumbers) {
   let checkCardStart;
 
