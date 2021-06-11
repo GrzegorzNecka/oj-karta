@@ -1,7 +1,6 @@
 function checkCardStartWith(cardNumber, cardName) {
  
   const stringCardNumber = cardNumber.join('').toString();
-
   const firstNumbers = {
     mastercard: ['51', '52', '53', '54', '55'],
     visa: ['4'],
