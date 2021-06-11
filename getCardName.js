@@ -1,3 +1,4 @@
+
 function checkCardStartWith(cardNumber, cardName) {
  
   const stringCardNumber = cardNumber.join('').toString();
@@ -14,7 +15,7 @@ function checkCardStartWith(cardNumber, cardName) {
   return checkFirstNumbers.length ? cardName : 'Nieprawidłowy';
 }
 
-const getCardName = arrOfNumbers => {
+function getCardName(arrOfNumbers) {
   let checkCardStart;
 
   switch (arrOfNumbers.length) {
